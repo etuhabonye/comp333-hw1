@@ -47,19 +47,20 @@ iframe {
 .flex-container {
     display: flex;
     flex-wrap: nowrap;
-    background-color: orange;
+    background-color:#8B575C ;
   }
 
 .flex-child {
   flex:1;
-  border: 2px solid yellow;
+  border: 2px solid;
+  color: #C98986;
 }
 
 .flex-child:first-child {
   margin-right: 20px;
 }
 .flex-container > div {
-    background-color: grey;
+    background-color: #F6BDD1;
     width: 200px;
     margin: 10px;
     text-align: center;
