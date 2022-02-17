@@ -29,6 +29,13 @@ Style the links inside the navigation bar
    color: white;
  }
 
+ div {
+  background-color: white;
+  width: 300px;
+  border: 15px solid rgb(250, 141, 235);
+  padding: 50px;
+  margin: 20px;
+}
 /* 
     Style iframes.
 */
