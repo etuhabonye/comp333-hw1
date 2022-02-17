@@ -45,6 +45,14 @@ iframe {
     border: dotted;
 }
 
+div{
+  background-color: #FFB6C1;
+  width: 300px;
+  border: 15px solid #FFB6C1;
+  padding: 50px;
+  margin: 20px;
+}
+
 .flex-container {
     display: flex;
   }
