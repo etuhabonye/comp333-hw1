@@ -29,7 +29,7 @@ Style the links inside the navigation bar
    color: white;
  }
 
- div {
+ .free-prem {
   background-color: white;
   width: 300px;
   border: 15px solid rgb(250, 141, 235);
