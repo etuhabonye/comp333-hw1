@@ -102,98 +102,20 @@
         <a href="html_sample_2.html">Log In</a>
     </div>
 
-    <h1 style="background: lightpink;"> <center> Lollipop Music </center> </h1>
-    <h2 style="background: lightpink;"> <center> the site with candy for your ears </center> </h2>
+    <p class = "background-image-class">
+        <h1 style="background: lightpink;"> <center> Lollipop Music </center> </h1>
+        <h2 style="background: lightpink;"> <center> the site with candy for your ears </center> </h2>
+    </p>
+        
+    
+
+
     
     <!--
         Just as for the bold and strong tags, italics and cited text looks 
         the same but have a different meaning when browsers and search 
         engines enounter it.
     -->
-    <cite>Cited text.</cite>
-    <h2>2. Character Entity References</h2>
-    <p>
-        Certain characters cannot be directly displayed in HTML because they are 
-        part of the language. But you can use, for example,<br> 
-        <span>&</span><span>gt</span><span>;</span>to display the &gt; sign,<br>
-        <span>&</span><span>lt</span><span>;</span> for the &lt; sign, and<br>
-        <span>&</span><span>amp</span><span>;</span> for the &amp; sign.<br>
-        Enclosing the signs in &lt;code&gt;&lt;/code&gt; tags also works.
-    </p>
-    <h2>3. Divs</h2>
-    <!--
-        divs and spans are important fundamental tags for grouping HTML 
-        content together. A span works in-line and is often used for a small
-        chunk of HTML inside a line, e.g., part of a paragraph. A div (from 
-        division) works block-line and causes a line break before and after 
-        it. It is used to group larger chunks of HTML.
-    -->
-    <div>Here is a div (divison) with styling from our Style Sheet.</div>
-    And here we have <span>a span</span>.<br>
-    Note, this text is not blue because it is not within paragraph tags.
-    <!--
-        Both divs and spans are natural entry points for styling your page 
-        with CSS.
-    -->
-    Here is a <span style=color:red;> span with inline styling</span>. In
-    the following each of the lines is enclosed in its own div.
-    <div>If I have multiple elements,</div>
-    <div>and I want to style them in the same way,</div>
-    <div>it is easier to use a Style Sheet.</div>
-    <div>I can just update the style there once, and it will be reflected 
-        everywhere where it is applied.</div>
-    <div>If you want, you can use one div wrapping all your visible page 
-        content and style in it to have a maxmium width to make the page 
-        content look a bit more aligned and apply a particular style to 
-        all of your page content.</div>
-    <h3>3.1 Using the ID Attribute</h3>
-    <div id="white-div">divs and other tags can have ids,
-            which I can reference in the Style Sheet.
-            ids have to be unique. They are intended to 
-            unambigously identify one element. This is one 
-            way to apply a different style to an element that
-            has a generally defined style in the Style Sheet.
-    </div>
-    <h3>3.2 Using the Class Attribute</h3>
-    <!--
-        You can use the class attribute to style elements
-        on your site that are not unique.
-    -->
-    <p class="color-class">
-        This paragraph demonstrates the usage of the class attribute. Every 
-        element of the background image class has white font.
-    </p>
-    <p class="background-image-class">
-        You can include background images on your site.<br>
-        Just as with any image or other resource, you<br>
-        can load it from your own server or by giving<br>
-        a URL of a server to fetch it.<br>
-        You can fetch a placeholder<br>
-        image to get an idea of how<br>
-        a background image may look<br>
-        on your site.
-    </p>
-    <h2>4. The CSS Box Model</h2>
-    <p class="css-box-model-class">
-        You can use the CSS Box Model for your styles.<br>
-        Here is an example.<br>
-        The CSS Box Model is essentially a box that<br>
-        wraps around every CSS element.
-    </p>
- 
-    <h2>6. Images</h2>
-    <p>You can include images on your page as follows:</p>
-    <img src="https://placeimg.com/400/200/any" alt="Here is the alt text.">
-    <p>An alt text is useful to include, especially, if you are including 
-        external images as we do here (these are placeholder images). If 
-        the link breaks, you can describe to the user the image that was 
-        supposed to be there:</p>
-    <img src="http://sebastianzimmeck.de/doesnotexist.hmtl" alt="Here should be 
-    an image but there is none, which is why you are seing this the broken image
-    link icon and alt text."> Also, screen readers for the visually impaired can 
-    read the alt text. So, even if there is no problem with loading images, it 
-    is a good idea to include alt texts. Images can also be styled via CSS.
-    <h2>7. Content Organization</h2>
     <h3 id="view-plans">7.1 View Plans</h3>
     Here are some of the plans we offer!:
     <div class="flex-cont">

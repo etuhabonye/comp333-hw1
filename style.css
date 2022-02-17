@@ -44,8 +44,11 @@ iframe {
     height:100%;
     border: dotted;
 }
-
-div{
+.background-image-class {
+  background-image: url(https://placeimg.com/400/200/any); background-repeat: no-repeat;
+  color: white;
+}
+.free-prem{
   background-color: #FFB6C1;
   width: 300px;
   border: 15px solid #FFB6C1;
