@@ -45,7 +45,8 @@ iframe {
     border: dotted;
 }
 .background-image-class {
-  background-image: url(https://placeimg.com/400/200/any); background-repeat: no-repeat;
+  background-image: url(https://pixabay.com/photos/sweets-lollipops-candies-treats-6942671/); 
+  background-repeat: no-repeat;
   color: white;
 }
 .free-prem{
