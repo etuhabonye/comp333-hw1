@@ -48,11 +48,17 @@ iframe {
 }
 
   .item {
-    background: #AFB3F7;
+    background: #E4E3D3;
     flex-grow: 1;
     height: 500px;
     margin: 5px;
 }
+  .item2 {
+    background: #F5F9E9;
+    flex-grow: 1;
+    height: 500px;
+    margin: 5px;
+  }
 
 .flex-container {
     display: flex;
