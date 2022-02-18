@@ -68,6 +68,7 @@ iframe {
     height: 200x;
     margin: 5px;
     border: #374B4A solid;
+    text-size-adjust: auto;
   }
 
 .flex-container {
