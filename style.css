@@ -92,6 +92,7 @@ body {
 body {
   background-color: #374B4A;
   font-family: Helvetica, sans-serif;
+  font-size: large;
 }
 
 /* The actual timeline (the vertical ruler) */
