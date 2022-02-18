@@ -52,7 +52,7 @@ iframe {
   .item {
     background: #E4E3D3;
     flex-grow: 1;
-    height: 500px;
+    height: 350px;
     margin: 5px;
 }
   .item2 {
@@ -63,7 +63,7 @@ iframe {
   }
 
   .itemsmall {
-    background: #6E9075;
+    background: #F5F9E9;
     flex-grow: 1;
     height: 100px;
     margin: 5px;
