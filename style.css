@@ -123,16 +123,16 @@ body {
 }
 
 ul {
-  margin: 2;
+  margin-bottom: 2px;
 }
 li {
-  margin: 2;
+  margin-bottom: 2px;
 }
 
 dt {
-  margin: 2;
+  margin-bottom: 2px;
 }
 
 dd{
-  margin: 2px;
+  margin-bottom: 2px;
 }
