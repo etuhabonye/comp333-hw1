@@ -1,12 +1,10 @@
-.flex-container {
+.container {
     display: flex;
-}
-
-.flex-child {
-    flex: 1;
-    border: 2px solid yellow;
-}  
-
-.flex-child:first-child {
-    margin-right: 20px;
-} 
+  }
+  
+  .item {
+    background: #ce8888;
+    flex-basis: 100px;
+    height: 100px;
+    margin: 5px;
+  }
