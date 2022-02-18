@@ -52,14 +52,14 @@ iframe {
   .item {
     background: #E4E3D3;
     flex-grow: 1;
-    height: 350px;
+    height: 400px;
     margin: 5px;
     text-size-adjust: auto;
 }
   .item2 {
     background: #F5F9E9;
     flex-grow: 1;
-    height: 500px;
+    height: 700px;
     margin: 5px;
     text-size-adjust: auto;
   }
