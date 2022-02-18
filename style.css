@@ -49,12 +49,15 @@ iframe {
   background-repeat: no-repeat;
   color: white;
 }
-.free-prem{
-  background-color: #FFB6C1;
-  width: 300px;
-  border: 15px solid #FFB6C1;
-  padding: 50px;
-  margin: 20px;
+
+.container {
+  display: flex;
+}
+  .item {
+    background: #ce8888;
+    flex-grow: 1;
+    height: 500px;
+    margin: 5px;
 }
 
 .flex-container {
