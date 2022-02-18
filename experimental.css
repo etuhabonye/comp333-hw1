@@ -5,6 +5,7 @@
   .item {
     background: #ce8888;
     flex-basis: 100px;
+    flex-grow: 1;
     height: 100px;
     margin: 5px;
   }
