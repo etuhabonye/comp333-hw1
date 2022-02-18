@@ -73,3 +73,12 @@ iframe {
 .flex-child:first-child {
   margin-right: 20px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
+
+/* 
+    The imported font should be applied to all body text.
+*/
+body {
+    font-family: 'Noto Sans SC', sans-serif;
+}
