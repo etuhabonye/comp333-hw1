@@ -54,12 +54,14 @@ iframe {
     flex-grow: 1;
     height: 350px;
     margin: 5px;
+    text-size-adjust: auto;
 }
   .item2 {
     background: #F5F9E9;
     flex-grow: 1;
     height: 500px;
     margin: 5px;
+    text-size-adjust: auto;
   }
 
   .itemsmall {
