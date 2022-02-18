@@ -4,8 +4,7 @@
   
   .item {
     background: #ce8888;
-    flex-basis: 100px;
     flex-grow: 1;
-    height: 100px;
+    height: 1000px;
     margin: 5px;
   }
