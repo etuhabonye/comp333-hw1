@@ -83,17 +83,13 @@ iframe {
 body {
     font-family: 'Noto Sans SC', sans-serif;
     color: #374B4A;
+    font-size: large;
 }
 
 * {
   box-sizing: border-box;
 }
 
-body {
-  background-color: #374B4A;
-  font-family: Helvetica, sans-serif;
-  font-size: large;
-}
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
