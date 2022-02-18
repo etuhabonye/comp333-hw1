@@ -46,6 +46,12 @@ iframe {
 .container {
   display: flex;
 }
+  .itemhead {
+    background: #374B4A;
+    flex-grow: 1;
+    height: 500px;
+    margin: 5px 
+  }
 
   .item {
     background: #E4E3D3;
