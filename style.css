@@ -53,10 +53,11 @@ iframe {
 .container {
   display: flex;
 }
+
   .item {
     background: #ce8888;
     flex-grow: 1;
-    height: 500px;
+    height: 1000px;
     margin: 5px;
 }
 
