@@ -121,3 +121,18 @@ body {
       display: block;
   }
 }
+
+ul {
+  margin: 2;
+}
+li {
+  margin: 2;
+}
+
+dt {
+  margin: 2;
+}
+
+dd{
+  margin: 2px;
+}
