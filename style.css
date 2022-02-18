@@ -86,3 +86,38 @@ body {
     font-size: large;
 }
 
+.testimonal {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+.testimonal::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.testimonal img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.testimonal span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .testimonal {
+      text-align: center;
+  }
+  .testimonals img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
