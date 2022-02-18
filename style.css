@@ -62,6 +62,14 @@ iframe {
     margin: 5px;
   }
 
+  .itemsmall {
+    background: #6E9075;
+    flex-grow: 1;
+    height: 100px;
+    margin: 5px;
+    border: #374B4A solid;
+  }
+
 .flex-container {
     display: flex;
   }
