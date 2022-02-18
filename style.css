@@ -45,14 +45,14 @@ iframe {
   .itemhead {
     background: #6E9075;
     flex-grow: 1;
-    height: 300px;
+    height: 700px;
     margin: 5px 
   }
 
   .item {
     background: #E4E3D3;
     flex-grow: 1;
-    height: 350px;
+    height: 300px;
     margin: 5px;
 }
   .item2 {
