@@ -90,6 +90,12 @@ body {
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Noto Sans SC', sans-serif;
+  color: #374B4A;
+  font-size: large;
+}
+
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
